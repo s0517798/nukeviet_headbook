@@ -34,3 +34,29 @@ $lang_module['contents'] = 'Nội dung sổ đầu bài';
 $lang_module['summary'] = 'Tổng kết tuần';
 $lang_module['setting'] = 'Cấu hình';
 $lang_module['save'] = 'Lưu lại';
+
+//Lang for function organizations
+$lang_module['add'] = 'Thêm mới';
+$lang_module['edit'] = 'Sửa';
+$lang_module['delete'] = 'Xóa';
+$lang_module['number'] = 'STT';
+$lang_module['active'] = 'Trạng thái';
+$lang_module['search_title'] = 'Nhập từ khóa tìm kiếm';
+$lang_module['search_submit'] = 'Tìm kiếm';
+$lang_module['organization_name'] = 'Tên sở giáo dục';
+$lang_module['update_time'] = 'Thời gian cập nhật';
+$lang_module['error_required_organization_name'] = 'Lỗi: bạn cần nhập dữ liệu cho Tên sở giáo dục';
+$lang_module['error_required_update_time'] = 'Lỗi: bạn cần nhập dữ liệu cho Thời gian cập nhật';
+
+//Lang for function organizations
+$lang_module['add_time'] = 'Thời gian thêm';
+$lang_module['error_required_add_time'] = 'Lỗi: bạn cần nhập dữ liệu cho Thời gian thêm';
+
+//Lang for function department
+$lang_module['department_name'] = 'Tên phòng GD&ĐT';
+$lang_module['organizations_id'] = 'Tên Sở GD&ĐT';
+$lang_module['error_required_department_name'] = 'Lỗi: bạn cần nhập dữ liệu cho Tên phòng đào tạo';
+$lang_module['error_required_organizations_id'] = 'Lỗi: bạn cần nhập dữ liệu cho Mã sở giáo dục';
+
+//Lang for function department
+$lang_module['department_id'] = 'Mã phòng đào tạo';

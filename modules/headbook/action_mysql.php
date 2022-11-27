@@ -39,11 +39,12 @@ $sql_create_module[] = "CREATE TABLE " . $db_config['prefix'] . "_" . $module_da
 ) ENGINE=MyISAM;";
 
 $sql_create_module[] = "CREATE TABLE " . $db_config['prefix'] . "_" . $module_data . "_department (
-  department_id smallint(4) NOT NULL COMMENT 'Mã phòng đào tạo',
+  department_id smallint(4) NOT NULL AUTO_INCREMENT COMMENT 'Mã phòng đào tạo',
   department_name varchar(200) NOT NULL DEFAULT '' COMMENT 'Tên phòng đào tạo',
   organizations_id smallint(4) NOT NULL COMMENT 'Mã sở giáo dục',
   add_time int(11) NOT NULL DEFAULT 0 COMMENT 'Thời gian thêm',
-  update_time int(11) NOT NULL DEFAULT 0 COMMENT 'Thời gian cập nhật'
+  update_time int(11) NOT NULL DEFAULT 0 COMMENT 'Thời gian cập nhật',
+  PRIMARY KEY (department_id)
 ) ENGINE=MyISAM;";
 
 $sql_create_module[] = "CREATE TABLE " . $db_config['prefix'] . "_" . $module_data . "_schools (
@@ -182,3 +183,18 @@ $sql_create_module[] = "CREATE TABLE " . $db_config['prefix'] . "_" . $module_da
   status tinyint(1) NOT NULL DEFAULT 1 COMMENT 'Trạng thái',
   PRIMARY KEY (setting_id)
 ) ENGINE=MyISAM;";
+
+
+// +++++++++++++++++++++++++++ Thêm dữ liệu mẫu +++++++++++++++++++++++++++
+
+/* Sở GD&ĐT  */
+$sql_create_module[] = "INSERT INTO `nv4_headbook_organizations` (`organizations_id`, `organization_name`, `add_time`, `update_time`) VALUES
+(1, 'Sở GD&ĐT TP.HCM', 1669482000, 1669482000),
+(2, 'Sở GD&ĐT Hà Nội', 1669482000, 1668963600),
+(3, 'Sở GD&ĐT Nghệ An', 1669482000, 1668963600)";
+
+/* Phòng GD&ĐT  */
+$sql_create_module[] = "INSERT INTO `nv4_headbook_department` (`department_id`, `department_name`, `organizations_id`, `add_time`, `update_time`) VALUES
+(1, 'Phòng GD&ĐT Thành phố Vinh', 3, 1669568400, 1669568400),
+(2, 'Phòng GD&ĐT Huyện Quỳnh Lưu', 3, 1669568400, 1669568400),
+(3, 'Phòng GD&ĐT Thị xã Cửa Lò', 3, 1669568400, 1669568400)";
