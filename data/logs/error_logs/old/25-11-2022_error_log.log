@@ -1,0 +1,21 @@
+[Fri, 25 Nov 2022 17:09:25 +0700] [localhost] [::1] [Run-time notices(8192): Function strftime() is deprecated] [FILE: /admin/database/functions.php] [LINE: 81] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 17    FILE: /admin/database/main.php
+
+[Fri, 25 Nov 2022 17:09:25 +0700] [localhost] [::1] [Run-time notices(8192): Function strftime() is deprecated] [FILE: /admin/database/functions.php] [LINE: 82] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 17    FILE: /admin/database/main.php
+
+[Fri, 25 Nov 2022 17:09:46 +0700] [localhost] [::1] [Run-time notices(8192): Function strftime() is deprecated] [FILE: /admin/database/functions.php] [LINE: 235] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 22    FILE: /admin/database/main.php
+
+[Sat, 26 Nov 2022 02:54:09 +0700] [localhost] [::1] [Run-time notices(8192): http_build_query(): Passing null to parameter #2 ($numeric_prefix) of type string is deprecated] [FILE: /vendor/vinades/nukeviet/Http/Http.php] [LINE: 215] [TRACE:]
+#1  LINE: 26    FILE: /index.php
+#2  LINE: 376   FILE: /includes/mainfile.php
+#3  LINE: 77    FILE: /includes/core/cronjobs.php
+#4  LINE: 34    FILE: /includes/cronjobs/check_version.php
+#5  LINE: 284   FILE: /includes/core/admin_functions.php
+#6  LINE: 733   FILE: /vendor/vinades/nukeviet/Http/Http.php
+#7  LINE: 215   FILE: /vendor/vinades/nukeviet/Http/Http.php
+

@@ -1,0 +1,108 @@
+[Sat, 26 Nov 2022 23:09:46 +0700] [localhost] [::1] [Run-time notices(8192): Function strftime() is deprecated] [FILE: /admin/database/functions.php] [LINE: 81] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 17    FILE: /admin/database/main.php
+
+[Sat, 26 Nov 2022 23:09:46 +0700] [localhost] [::1] [Run-time notices(8192): Function strftime() is deprecated] [FILE: /admin/database/functions.php] [LINE: 82] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 17    FILE: /admin/database/main.php
+
+[Sat, 26 Nov 2022 23:09:54 +0700] [localhost] [::1] [Run-time notices(8192): Function strftime() is deprecated] [FILE: /admin/database/functions.php] [LINE: 235] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 22    FILE: /admin/database/main.php
+
+[Sat, 26 Nov 2022 23:32:00 +0700] [localhost] [::1] [User Notice(1024): PDOException Object
+(
+    [message:protected] => SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'varchar(200) NOT NULL DEFAULT '' COMMENT 'Tên cấu hình',
+  status tinyin...' at line 3
+    [string:Exception:private] => 
+    [code:protected] => 42000
+    [file:protected] => C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\vendor\vinades\nukeviet\Core\Database.php
+    [line:protected] => 526
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\vendor\vinades\nukeviet\Core\Database.php
+                    [line] => 526
+                    [function] => query
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => CREATE TABLE nv4_headbook_config (
+  config_id smallint(4) NOT NULL AUTO_INCREMENT COMMENT 'Mã cấu hình ',
+  config _name varchar(200) NOT NULL DEFAULT '' COMMENT 'Tên cấu hình',
+  status tinyint(1) NOT NULL DEFAULT 1 COMMENT 'Trạng thái',
+  PRIMARY KEY (config_id)
+) ENGINE=MyISAM;
+                            [1] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\admin\modules\functions.php
+                    [line] => 192
+                    [function] => query
+                    [class] => NukeViet\Core\Database
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => CREATE TABLE nv4_headbook_config (
+  config_id smallint(4) NOT NULL AUTO_INCREMENT COMMENT 'Mã cấu hình ',
+  config _name varchar(200) NOT NULL DEFAULT '' COMMENT 'Tên cấu hình',
+  status tinyint(1) NOT NULL DEFAULT 1 COMMENT 'Trạng thái',
+  PRIMARY KEY (config_id)
+) ENGINE=MyISAM;
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\admin\modules\setup.php
+                    [line] => 79
+                    [function] => nv_setup_data_module
+                    [args] => Array
+                        (
+                            [0] => vi
+                            [1] => headbook
+                            [2] => 0
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\admin\index.php
+                    [line] => 182
+                    [args] => Array
+                        (
+                            [0] => C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\admin\modules\setup.php
+                        )
+
+                    [function] => require
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => Array
+        (
+            [0] => 42000
+            [1] => 1064
+            [2] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'varchar(200) NOT NULL DEFAULT '' COMMENT 'Tên cấu hình',
+  status tinyin...' at line 3
+        )
+
+)
+] [FILE: /admin/modules/functions.php] [LINE: 194] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 79    FILE: /admin/modules/setup.php
+#3  LINE: 194   FILE: /admin/modules/functions.php
+
+[Sat, 26 Nov 2022 23:59:42 +0700] [localhost] [::1] [Run-time notices(8192): Function strftime() is deprecated] [FILE: /admin/database/functions.php] [LINE: 239] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 22    FILE: /admin/database/main.php
+

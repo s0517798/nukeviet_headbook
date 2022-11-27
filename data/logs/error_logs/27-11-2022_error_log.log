@@ -1,0 +1,20 @@
+[Sun, 27 Nov 2022 16:00:13 +0700] [localhost] [::1] [Run-time notices(8192): Function strftime() is deprecated] [FILE: /admin/database/functions.php] [LINE: 81] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 17    FILE: /admin/database/main.php
+
+[Sun, 27 Nov 2022 16:00:13 +0700] [localhost] [::1] [Run-time notices(8192): Function strftime() is deprecated] [FILE: /admin/database/functions.php] [LINE: 82] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 17    FILE: /admin/database/main.php
+
+[Sun, 27 Nov 2022 16:16:17 +0700] [localhost] [::1] [Run-time notices(8192): Function strftime() is deprecated] [FILE: /admin/database/functions.php] [LINE: 235] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 22    FILE: /admin/database/main.php
+
+[Sun, 27 Nov 2022 16:16:17 +0700] [localhost] [::1] [Run-time notices(8192): Function strftime() is deprecated] [FILE: /admin/database/functions.php] [LINE: 239] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 22    FILE: /admin/database/main.php
+
+[Sun, 27 Nov 2022 16:20:02 +0700] [localhost] [::1] [Run-time notices(8192): Function strftime() is deprecated] [FILE: /admin/database/functions.php] [LINE: 243] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 22    FILE: /admin/database/main.php
+

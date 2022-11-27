@@ -11,13 +11,13 @@
 if (!defined('NV_IS_FILE_ADMIN'))
     die('Stop!!!');
 
-$page_title = $lang_module['teacher'];
+$page_title = $lang_module['summary'];
 
 //------------------------------
 // Viết code xử lý chung vào đây
 //------------------------------
 
-$xtpl = new XTemplate('teacher.tpl', NV_ROOTDIR . '/themes/' . $global_config['module_theme'] . '/modules/' . $module_file);
+$xtpl = new XTemplate('summary.tpl', NV_ROOTDIR . '/themes/' . $global_config['module_theme'] . '/modules/' . $module_file);
 $xtpl->assign('LANG', $lang_module);
 $xtpl->assign('NV_LANG_VARIABLE', NV_LANG_VARIABLE);
 $xtpl->assign('NV_LANG_DATA', NV_LANG_DATA);

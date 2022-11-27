@@ -1,0 +1,9 @@
+[Mon, 21 Nov 2022 15:08:31 +0700] [localhost] [::1] [Warning(2): Undefined array key "column"] [FILE: /modules/nvtools/funcs/addfun.php] [LINE: 187] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+
+[Mon, 21 Nov 2022 15:08:31 +0700] [localhost] [::1] [Warning(2): Undefined array key 1] [FILE: /modules/nvtools/funcs/addfun.php] [LINE: 192] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+
+[Mon, 21 Nov 2022 15:11:40 +0700] [localhost] [::1] [Warning(2): Undefined array key "Sở Diáo Dục & Đào Tạo Nghệ An"] [FILE: /modules/headbook/admin/education.php] [LINE: 249] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+
