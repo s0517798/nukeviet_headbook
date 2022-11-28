@@ -72,3 +72,12 @@ $lang_module['grade_name'] = 'Tên khối';
 $lang_module['school_id'] = 'Tên trường';
 $lang_module['error_required_grade_name'] = 'Lỗi: bạn cần nhập dữ liệu cho Tên khối';
 $lang_module['error_required_school_id'] = 'Lỗi: bạn cần nhập dữ liệu cho Tên trường';
+
+//Lang for function teacher
+$lang_module['userid'] = 'Tài khoản';
+$lang_module['teacher_name'] = 'Tên giáo viên';
+$lang_module['status'] = 'Trạng thái';
+
+//Lang for function teacher
+$lang_module['error_required_userid'] = 'Lỗi: bạn cần nhập dữ liệu cho Tài khoản';
+$lang_module['error_required_teacher_name'] = 'Lỗi: bạn cần nhập dữ liệu cho Tên giáo viên';

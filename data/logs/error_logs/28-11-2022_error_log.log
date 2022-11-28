@@ -108,3 +108,12 @@
 [Mon, 28 Nov 2022 20:04:39 +0700] [localhost] [::1] [Warning(2): Undefined array key "subjects"] [FILE: /modules/headbook/admin/subjects.php] [LINE: 14] [TRACE:]
 #1  LINE: 182   FILE: /admin/index.php
 
+[Tue, 29 Nov 2022 01:36:29 +0700] [localhost] [::1] [Warning(2): Undefined array key "Hồ Anh tuấn"] [FILE: /modules/headbook/admin/teacher.php] [LINE: 192] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+
+[Tue, 29 Nov 2022 01:42:14 +0700] [localhost] [::1] [Warning(2): Undefined array key "Hồ Anh tuấn"] [FILE: /modules/headbook/admin/teacher.php] [LINE: 203] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+
+[Tue, 29 Nov 2022 01:42:55 +0700] [localhost] [::1] [Warning(2): Undefined array key "Hồ Anh tuấn"] [FILE: /modules/headbook/admin/teacher.php] [LINE: 204] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+

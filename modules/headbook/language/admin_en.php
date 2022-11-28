@@ -59,3 +59,13 @@ $lang_module['grade_name'] = 'Grade name';
 $lang_module['school_id'] = 'School\'s nameid';
 $lang_module['error_required_grade_name'] = 'Error: Required fields enter the Grade name';
 $lang_module['error_required_school_id'] = 'Error: Required fields enter the School\'s nameid';
+
+//Lang for function teacher
+$lang_module['teacher'] = 'teacher';
+$lang_module['userid'] = 'Userid';
+$lang_module['teacher_name'] = 'Teacher name';
+$lang_module['status'] = 'Status';
+
+//Lang for function teacher
+$lang_module['error_required_userid'] = 'Error: Required fields enter the Userid';
+$lang_module['error_required_teacher_name'] = 'Error: Required fields enter the Teacher name';
