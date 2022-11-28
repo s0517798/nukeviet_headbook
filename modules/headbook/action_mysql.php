@@ -198,3 +198,11 @@ $sql_create_module[] = "INSERT INTO `nv4_headbook_department` (`department_id`, 
 (1, 'Phòng GD&ĐT Thành phố Vinh', 3, 1669568400, 1669568400),
 (2, 'Phòng GD&ĐT Huyện Quỳnh Lưu', 3, 1669568400, 1669568400),
 (3, 'Phòng GD&ĐT Thị xã Cửa Lò', 3, 1669568400, 1669568400)";
+
+
+/* Trường  */
+$sql_create_module[] = "INSERT INTO `nv4_headbook_schools` (`school_id`, `school_name`, `department_id`, `add_time`, `update_time`) VALUES
+(1, 'Trường THPT Quỳnh Lưu 1', 2, 1669568400, 1669568400),
+(2, 'Trường THPT Quỳnh Lưu 2', 2, 1669568400, 1669568400),
+(3, 'Trường THPT Quỳnh Lưu 3', 2, 1669568400, 1669568400),
+(4, 'Trường THPT Quỳnh Lưu 4', 2, 1669568400, 1669568400)";

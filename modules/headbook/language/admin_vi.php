@@ -53,10 +53,22 @@ $lang_module['add_time'] = 'Thời gian thêm';
 $lang_module['error_required_add_time'] = 'Lỗi: bạn cần nhập dữ liệu cho Thời gian thêm';
 
 //Lang for function department
-$lang_module['department_name'] = 'Tên phòng GD&ĐT';
-$lang_module['organizations_id'] = 'Tên Sở GD&ĐT';
+$lang_module['department_name'] = 'Tên phòng đào tạo';
+$lang_module['organizations_id'] = 'Tên sở giáo dục';
 $lang_module['error_required_department_name'] = 'Lỗi: bạn cần nhập dữ liệu cho Tên phòng đào tạo';
 $lang_module['error_required_organizations_id'] = 'Lỗi: bạn cần nhập dữ liệu cho Mã sở giáo dục';
 
 //Lang for function department
-$lang_module['department_id'] = 'Mã phòng đào tạo';
+// $lang_module['department_id'] = 'Mã phòng đào tạo';
+$lang_module['department_id'] = 'Tên phòng đào tạo';
+
+//Lang for function schools
+$lang_module['school_name'] = 'Tên trường';
+$lang_module['error_required_school_name'] = 'Lỗi: bạn cần nhập dữ liệu cho Tên trường';
+$lang_module['error_required_department_id'] = 'Lỗi: bạn cần nhập dữ liệu cho Mã phòng đào tạo';
+
+//Lang for function grade
+$lang_module['grade_name'] = 'Tên khối';
+$lang_module['school_id'] = 'Tên trường';
+$lang_module['error_required_grade_name'] = 'Lỗi: bạn cần nhập dữ liệu cho Tên khối';
+$lang_module['error_required_school_id'] = 'Lỗi: bạn cần nhập dữ liệu cho Tên trường';

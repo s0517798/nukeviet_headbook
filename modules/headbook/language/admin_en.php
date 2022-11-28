@@ -46,3 +46,16 @@ $lang_module['error_required_organizations_id'] = 'Error: Required fields enter 
 
 //Lang for function department
 $lang_module['department_id'] = 'Department id';
+
+//Lang for function schools
+$lang_module['schools'] = 'schools';
+$lang_module['school_name'] = 'School name';
+$lang_module['error_required_school_name'] = 'Error: Required fields enter the School name';
+$lang_module['error_required_department_id'] = 'Error: Required fields enter the Department id';
+
+//Lang for function grade
+$lang_module['grade'] = 'grade';
+$lang_module['grade_name'] = 'Grade name';
+$lang_module['school_id'] = 'School\'s nameid';
+$lang_module['error_required_grade_name'] = 'Error: Required fields enter the Grade name';
+$lang_module['error_required_school_id'] = 'Error: Required fields enter the School\'s nameid';
