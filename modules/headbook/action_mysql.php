@@ -78,7 +78,7 @@ $sql_create_module[] = "CREATE TABLE " . $db_config['prefix'] . "_" . $module_da
 $sql_create_module[] = "CREATE TABLE " . $db_config['prefix'] . "_" . $module_data . "_times (
   times_id smallint(4) NOT NULL AUTO_INCREMENT COMMENT 'Mã môn học',
   times_name varchar(200) NOT NULL DEFAULT '' COMMENT 'Số thứ tự tiết',
-  minutes smallint(4) NOT NULL DEFAULT 0 COMMENT 'Số phút',
+  minutes smallint(4) NOT NULL DEFAULT 45 COMMENT 'Số phút',
   PRIMARY KEY (times_id)
 ) ENGINE=MyISAM;";
 
@@ -206,3 +206,54 @@ $sql_create_module[] = "INSERT INTO `nv4_headbook_schools` (`school_id`, `school
 (2, 'Trường THPT Quỳnh Lưu 2', 2, 1669568400, 1669568400),
 (3, 'Trường THPT Quỳnh Lưu 3', 2, 1669568400, 1669568400),
 (4, 'Trường THPT Quỳnh Lưu 4', 2, 1669568400, 1669568400)";
+
+/* khối  */
+$sql_create_module[] = "INSERT INTO `nv4_headbook_grade` (`grade_id`, `grade_name`, `school_id`, `add_time`, `update_time`) VALUES
+(1, 'Khối 10', 4, 1669568400, 1669568400),
+(2, 'Khối 11', 4, 1669568400, 1669568400),
+(3, 'Khối 12', 4, 1669568400, 1669568400)";
+
+/* Tài khoản  */
+// $sql_create_module[] = "INSERT INTO `nv4_users` (`userid`, `group_id`, `username`, `md5username`, `password`, `email`, `first_name`, `last_name`, `gender`, `photo`, `birthday`, `sig`, `regdate`, `question`, `answer`, `passlostkey`, `view_mail`, `remember`, `in_groups`, `active`, `active2step`, `secretkey`, `checknum`, `last_login`, `last_ip`, `last_agent`, `last_openid`, `last_update`, `idsite`, `safemode`, `safekey`, `email_verification_time`, `active_obj`) VALUES
+// (2, 3, 'hoanhtuan', '7b2cc47330e28464b7d1b80da9a8f1e1', '{SSHA512}CbR4Zsii4HdOpLJBZLtP1J2VLxdVc2VOmgi5GQlZAQ8xMVW5eYNg+EPE2bMyO9Zy2N73Bid+ERhAwy7j2YbYFzI1YjI=', 'anhtuana2k422001@gmail.com', 'Tuấn', 'Hồ Anh', 'M', 'uploads/users/avata_hoanhtuan_s2bqgoch_1.jpg', 978886800, 'tuấn', 1669650066, 'Cầu thủ yếu thích nhất', 'ronaldo', '', 0, 1, '3,4', 1, 0, '', '4dadbb8a8efa83df4d36b2c13694c883', 1669650319, '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36', '', 1669655077, 0, 0, '', 0, 'SYSTEM'),
+// (3, 3, 'nguyenhaiduong', 'b34ebdf72d9213357c061064b61d6fb3', '{SSHA512}AHgMUprZA+z1Rad4Ke/+rQgXTA7GC+A1vGNGlsK1M6Q8aaCdMuiL/afCYrKk0SHaw4DQyaOuCkzLGCp8RkAjh2NiYWM=', 'nguyenhaiduong190801@gmail.com', 'Dương', 'Nguyễn Hải', 'M', 'uploads/users/pngtree-cartoon-flat-math-teacher-avatar-design-png-image_4429178_s1ulda35_1.jpg', 998154000, 'dương', 1669654982, 'Cầu thủ yếu thích nhất', 'ronaldo', '', 0, 1, '3,4', 1, 0, '', '', 0, '', '', '', 1669655139, 0, 0, '', -1, 'SYSTEM'),
+// (4, 3, 'voanhquan', '16c2c1c20d2c61d8f1a37a2eb2792b87', '{SSHA512}bBER00/is5ee8cK3rWBfsFC1KdTCMjqkKnkNXRPn9rPGJeItPp6Q7HAGGkwPVar1lfJcxY70SP3+s8I7rI2YjDU5NTM=', '01642027120q@gmail.com', 'Quân', 'Võ Anh', 'M', 'uploads/users/pngtree-cartoon-flat-math-teacher-avatar-design-png-image_4429178_z181rzaw_1.jpg', 1003770000, 'quân', 1669659205, 'Cầu thủ yếu thích nhất', 'ronaldo', '', 0, 1, '4,3', 1, 0, '', '', 0, '', '', '', 0, 0, 0, '', -1, 'SYSTEM')";
+
+/* Giáo viên  */
+$sql_create_module[] = "INSERT INTO `nv4_headbook_teacher` (`teacher_id`, `userid`, `teacher_name`, `status`, `add_time`, `update_time`) VALUES
+(2, 3, 'Nguyễn Hải Dương', 1, 1669568400, 1669568400),
+(3, 4, 'Võ Anh Quân', 1, 1669568400, 1669568400),
+(4, 2, 'Hồ Anh tuấn', 1, 1669568400, 1669568400)";
+
+/* Tiết dạy  */
+$sql_create_module[] = "INSERT INTO `nv4_headbook_times` (`times_id`, `times_name`, `minutes`) VALUES
+(1, 'Tiết 1', 45),
+(2, 'Tiết 2', 45),
+(3, 'Tiết 3', 45),
+(4, 'Tiết 4', 45),
+(5, 'Tiết 5', 45),
+(6, 'Tiết 6', 45),
+(7, 'Tiết 7', 45),
+(8, 'Tiết 8', 45),
+(9, 'Tiết 9', 45),
+(10, 'Tiết 10', 45),
+(11, 'Tiết 11', 45),
+(12, 'Tiết 12', 45),
+(13, 'Tiết 13', 45),
+(14, 'Tiết 14', 45),
+(15, 'Tiết 15', 45),
+(16, 'Tiết 16', 45),
+(17, 'Tiết 17', 45),
+(18, 'Tiết 18', 45),
+(19, 'Tiết 19', 45),
+(20, 'Tiết 20', 45),
+(21, 'Tiết 21', 45),
+(22, 'Tiết 22', 45),
+(23, 'Tiết 23', 45),
+(24, 'Tiết 24', 45),
+(25, 'Tiết 25', 45),
+(26, 'Tiết 26', 45),
+(27, 'Tiết 27', 45),
+(28, 'Tiết 28', 45),
+(29, 'Tiết 29', 45),
+(30, 'Tiết 30', 45)";

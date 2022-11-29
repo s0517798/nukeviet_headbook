@@ -69,3 +69,10 @@ $lang_module['status'] = 'Status';
 //Lang for function teacher
 $lang_module['error_required_userid'] = 'Error: Required fields enter the Userid';
 $lang_module['error_required_teacher_name'] = 'Error: Required fields enter the Teacher name';
+
+//Lang for function times
+$lang_module['times'] = 'times';
+$lang_module['times_name'] = 'Times name';
+$lang_module['minutes'] = 'Minutes';
+$lang_module['error_required_times_name'] = 'Error: Required fields enter the Times name';
+$lang_module['error_required_minutes'] = 'Error: Required fields enter the Minutes';

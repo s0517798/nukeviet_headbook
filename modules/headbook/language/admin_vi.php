@@ -81,3 +81,9 @@ $lang_module['status'] = 'Trạng thái';
 //Lang for function teacher
 $lang_module['error_required_userid'] = 'Lỗi: bạn cần nhập dữ liệu cho Tài khoản';
 $lang_module['error_required_teacher_name'] = 'Lỗi: bạn cần nhập dữ liệu cho Tên giáo viên';
+
+//Lang for function times
+$lang_module['times_name'] = 'Số thứ tự tiết';
+$lang_module['minutes'] = 'Số phút';
+$lang_module['error_required_times_name'] = 'Lỗi: bạn cần nhập dữ liệu cho Số thứ tự tiết';
+$lang_module['error_required_minutes'] = 'Lỗi: bạn cần nhập dữ liệu cho Số phút';
