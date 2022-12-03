@@ -8,7 +8,7 @@
                     <th class="w100">{LANG.number}</th>
                     <th>{LANG.times_name}</th>
                     <th>{LANG.minutes}</th>
-                    <th class="w150">&nbsp;</th>
+                    <th class="w150 text-center">{LANG.action}</th>
                 </tr>
             </thead>
             <!-- BEGIN: generate_page -->

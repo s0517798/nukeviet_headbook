@@ -87,3 +87,34 @@ $lang_module['error_required_class_name'] = 'Error: Required fields enter the Cl
 $lang_module['error_required_grade_id'] = 'Error: Required fields enter the Grade id';
 $lang_module['error_required_amount'] = 'Error: Required fields enter the Amount';
 $lang_module['error_required_teacher_id'] = 'Error: Required fields enter the Teacher';
+
+//Lang for function subjects
+$lang_module['subjects'] = 'subjects';
+$lang_module['subject_name'] = 'Subject name';
+$lang_module['error_required_subject_name'] = 'Error: Required fields enter the Subject name';
+$lang_module['error_required_status'] = 'Error: Required fields enter the Status';
+
+//Lang for function lessons
+$lang_module['lessons'] = 'lessons';
+$lang_module['lesson_name'] = 'Lesson name';
+$lang_module['lesson_order'] = 'Lesson order';
+$lang_module['error_required_lesson_name'] = 'Error: Required fields enter the Lesson name';
+$lang_module['error_required_lesson_order'] = 'Error: Required fields enter the Lesson order';
+
+//Lang for function year
+$lang_module['year'] = 'year';
+$lang_module['year_name'] = 'Year name';
+$lang_module['description'] = 'Description';
+$lang_module['error_required_year_name'] = 'Error: Required fields enter the Year name';
+$lang_module['error_required_description'] = 'Error: Required fields enter the Description';
+
+//Lang for function week
+$lang_module['week'] = 'week';
+$lang_module['week_name'] = 'Week name';
+$lang_module['start_time'] = 'Start time';
+$lang_module['end_time'] = 'End time';
+$lang_module['year_id'] = 'Year id';
+$lang_module['error_required_week_name'] = 'Error: Required fields enter the Week name';
+$lang_module['error_required_start_time'] = 'Error: Required fields enter the Start time';
+$lang_module['error_required_end_time'] = 'Error: Required fields enter the End time';
+$lang_module['error_required_year_id'] = 'Error: Required fields enter the Year id';

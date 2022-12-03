@@ -17,6 +17,8 @@ $lang_translator['copyright'] = '@Copyright (C) 2022 Ho Anh Tuan All rights rese
 $lang_translator['info'] = '';
 $lang_translator['langtype'] = 'lang_module';
 
+$lang_module['action'] = 'Chức năng';
+
 $lang_module['main'] = 'Quản lý sổ đầu bài';
 $lang_module['organizations'] = 'Sở giáo dục';
 $lang_module['department'] = 'Phòng đào tạo';
@@ -97,3 +99,30 @@ $lang_module['error_required_class_name'] = 'Lỗi: bạn cần nhập dữ li�
 $lang_module['error_required_grade_id'] = 'Lỗi: bạn cần nhập dữ liệu cho Khối';
 $lang_module['error_required_amount'] = 'Lỗi: bạn cần nhập dữ liệu cho Sĩ số';
 $lang_module['error_required_teacher_id'] = 'Lỗi: bạn cần nhập dữ liệu cho Giáo viên chủ nhiệm';
+
+//Lang for function subjects
+$lang_module['subject_name'] = 'Tên môn học';
+$lang_module['error_required_subject_name'] = 'Lỗi: bạn cần nhập dữ liệu cho Tên môn học';
+$lang_module['error_required_status'] = 'Lỗi: bạn cần nhập dữ liệu cho Trạng thái';
+
+//Lang for function lessons
+$lang_module['lesson_name'] = 'Tên bài học';
+$lang_module['lesson_order'] = 'Tiết';
+$lang_module['error_required_lesson_name'] = 'Lỗi: bạn cần nhập dữ liệu cho Tên bài học';
+$lang_module['error_required_lesson_order'] = 'Lỗi: bạn cần nhập dữ liệu cho Tiết';
+
+//Lang for function year
+$lang_module['year_name'] = 'Tên năm học';
+$lang_module['description'] = 'Mô tả';
+$lang_module['error_required_year_name'] = 'Lỗi: bạn cần nhập dữ liệu cho Tên năm học';
+$lang_module['error_required_description'] = 'Lỗi: bạn cần nhập dữ liệu cho Mô tả';
+
+//Lang for function week
+$lang_module['week_name'] = 'Tuần';
+$lang_module['start_time'] = 'Thời gian bắt đầu';
+$lang_module['end_time'] = 'Thời gian kết thúc';
+$lang_module['year_id'] = 'Mã năm';
+$lang_module['error_required_week_name'] = 'Lỗi: bạn cần nhập dữ liệu cho Tuần';
+$lang_module['error_required_start_time'] = 'Lỗi: bạn cần nhập dữ liệu cho Thời gian bắt đầu';
+$lang_module['error_required_end_time'] = 'Lỗi: bạn cần nhập dữ liệu cho Thời gian kết thúc';
+$lang_module['error_required_year_id'] = 'Lỗi: bạn cần nhập dữ liệu cho Mã năm';

@@ -105,7 +105,6 @@ $sql_create_module[] = "CREATE TABLE " . $db_config['prefix'] . "_" . $module_da
 $sql_create_module[] = "CREATE TABLE " . $db_config['prefix'] . "_" . $module_data . "_lessons (
   lesson_id smallint(4) NOT NULL AUTO_INCREMENT COMMENT 'Mã bài học',
   lesson_name varchar(200) NOT NULL DEFAULT '' COMMENT 'Tên bài học',
-  lesson_order smallint(4) NOT NULL COMMENT 'Tiết',
   status tinyint(1) NOT NULL DEFAULT 1 COMMENT 'Trạng thái',
   add_time int(11) NOT NULL DEFAULT 0 COMMENT 'Thời gian thêm',
   update_time int(11) NOT NULL DEFAULT 0 COMMENT 'Thời gian cập nhật',
@@ -263,3 +262,44 @@ $sql_create_module[] = "INSERT INTO `nv4_headbook_class` (`class_id`, `class_nam
 (1, 'Lớp 12A1', 3, 34, 4, 1670000400, 1670000400),
 (3, 'Lớp 11A1', 2, 32, 3, 1670000400, 1670000400),
 (4, 'Lớp 10A1', 1, 35, 2, 1670000400, 1670000400)";
+
+/* Môn học  */
+$sql_create_module[] = "INSERT INTO `nv4_headbook_subjects` (`subject_id`, `subject_name`, `status`, `add_time`, `update_time`) VALUES
+(1, 'Tin học lớp 12', 1, 1670000400, 1670000400),
+(2, 'Công nghệ lớp 12', 1, 1670000400, 1670000400),
+(3, 'Sinh học Lớp 12', 1, 1670000400, 1670000400),
+(4, 'Vật Lý Lớp 12', 1, 1670000400, 1670000400),
+(5, 'Hóa học Lớp 12', 1, 1670000400, 1670000400),
+(6, 'Lịch Sử lớp 12', 1, 1670000400, 1670000400),
+(7, 'Địa Lý lớp 12', 1, 1670000400, 1670000400),
+(8, 'GDCD lớp 12', 1, 1670000400, 1670000400),
+(9, 'Toán học lớp 12', 1, 1670000400, 1670000400),
+(10, 'Ngoại ngữ lớp 12', 1, 1670000400, 1670000400),
+(11, 'Ngữ văn lớp 12', 1, 1670000400, 1670000400)";
+
+/* Bài học  */
+$sql_create_module[] = "INSERT INTO `nv4_headbook_lessons` (`lesson_id`, `lesson_name`, `status`, `add_time`, `update_time`) VALUES
+(1,  'Đọc văn. KHÁI QUÁT VĂN HỌC VIỆT NAM  TỪ CÁCH MẠNG THÁNG TÁM NĂM 1945 ĐẾN HẾT THẾ KỈ XX', 1, 1670000400, 1670000400),
+(2,  'Đọc văn. KHÁI QUÁT VĂN HỌC VIỆT NAM  TỪ CÁCH MẠNG THÁNG TÁM NĂM 1945 ĐẾN HẾT THẾ KỈ XX', 1, 1670000400, 1670000400),
+(3,  'Làm văn. NGHỊ LUẬN VỀ MỘT TƯ TƯỞNG, ĐẠO LÍ', 1, 1670000400, 1670000400),
+(4,  'Đọc văn. TUYÊN NGÔN ĐỘC LẬP - HỒ CHÍ MINH', 1, 1670000400, 1670000400),
+(5,  'Tiếng Việt. GIỮ GÌN SỰ TRONG SÁNG CỦA TIẾNG VIỆT', 1, 1670000400, 1670000400),
+(6,  'Làm văn. BÀI LÀM VĂN SỐ 1 (NGHỊ LUẬN XÃ HỘI)', 1, 1670000400, 1670000400),
+(7,  'Đọc văn. TUYÊN NGÔN ĐỘC LẬP (Hồ Chí Minh) (Phần 2. TÁC PHẨM)', 1, 1670000400, 1670000400),
+(8,  'Đọc văn. TUYÊN NGÔN ĐỘC LẬP (Hồ Chí Minh) (Phần 2. TÁC PHẨM)', 1, 1670000400, 1670000400),
+(9,  'Tiếng Việt.  GIỮ GÌN SỰ TRONG SÁNG CỦA TIẾNG VIỆT (tiếp)', 1, 1670000400, 1670000400),
+(10, 'Đọc văn.  NGUYỄN ĐÌNH CHIỂU, NGÔI SAO SÁNG TRONG VĂN NGHỆ CỦA DÂN TỘC', 1, 1670000400, 1670000400)";    
+
+
+/* Năm học*/
+$sql_create_module[] = "INSERT INTO `nv4_headbook_year` (`year_id`, `year_name`, `description`) VALUES
+(1, '2022 - 2023', 'Năm học 2022- 2023'),
+(2, '2021 - 2022', 'Năm học 2021- 2022')";
+
+/* Năm học*/
+$sql_create_module[] = "INSERT INTO `nv4_headbook_week` (`week_id`, `week_name`, `start_time`, `end_time`, `description`, `year_id`, `status`) VALUES
+(1, 'Tuấn 1', 1669568400, 1670000400, 'Tuần 1', 1, 1),
+(2, 'Tuấn 2', 1670173200, 1670605200, 'Tuần 2', 1, 1),
+(3, 'Tuấn 3', 1670778000, 1671210000, 'Tuần 3', 1, 1),
+(4, 'Tuấn 4', 1671382800, 1671814800, 'Tuần 4', 1, 1),
+(5, 'Tuấn 5', 1671987600, 1672419600, 'Tuần 5', 1, 1)";

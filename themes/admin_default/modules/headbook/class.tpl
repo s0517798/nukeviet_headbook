@@ -31,7 +31,7 @@
                     <th>{LANG.teacher_id}</th>
                     <th>{LANG.add_time}</th>
                     <th>{LANG.update_time}</th>
-                    <th class="w150">&nbsp;</th>
+                    <th class="w150 text-center">{LANG.action}</th>
                 </tr>
             </thead>
             <!-- BEGIN: generate_page -->
