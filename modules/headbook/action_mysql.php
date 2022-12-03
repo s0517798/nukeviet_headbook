@@ -84,7 +84,7 @@ $sql_create_module[] = "CREATE TABLE " . $db_config['prefix'] . "_" . $module_da
 
 $sql_create_module[] = "CREATE TABLE " . $db_config['prefix'] . "_" . $module_data . "_class (
   class_id smallint(4) NOT NULL AUTO_INCREMENT COMMENT 'Mã lớp',
-  class_name varchar(4) NOT NULL DEFAULT '' COMMENT 'Tên lớp',
+  class_name varchar(200) NOT NULL DEFAULT '' COMMENT 'Tên lớp',
   grade_id smallint(4) NOT NULL COMMENT 'Mã khối',
   amount smallint(4) NOT NULL DEFAULT 0 COMMENT 'Sĩ số',
   teacher_id smallint(4) NOT NULL COMMENT 'Mã giáo viên',
@@ -257,3 +257,9 @@ $sql_create_module[] = "INSERT INTO `nv4_headbook_times` (`times_id`, `times_nam
 (28, 'Tiết 28', 45),
 (29, 'Tiết 29', 45),
 (30, 'Tiết 30', 45)";
+
+/* Lớp học  */
+$sql_create_module[] = "INSERT INTO `nv4_headbook_class` (`class_id`, `class_name`, `grade_id`, `amount`, `teacher_id`, `add_time`, `update_time`) VALUES
+(1, 'Lớp 12A1', 3, 34, 4, 1670000400, 1670000400),
+(3, 'Lớp 11A1', 2, 32, 3, 1670000400, 1670000400),
+(4, 'Lớp 10A1', 1, 35, 2, 1670000400, 1670000400)";

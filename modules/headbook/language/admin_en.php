@@ -76,3 +76,14 @@ $lang_module['times_name'] = 'Times name';
 $lang_module['minutes'] = 'Minutes';
 $lang_module['error_required_times_name'] = 'Error: Required fields enter the Times name';
 $lang_module['error_required_minutes'] = 'Error: Required fields enter the Minutes';
+
+//Lang for function class
+$lang_module['class'] = 'class';
+$lang_module['class_name'] = 'Class name';
+$lang_module['grade_id'] = 'Grade id';
+$lang_module['amount'] = 'Amount';
+$lang_module['teacher_id'] = 'Teacher';
+$lang_module['error_required_class_name'] = 'Error: Required fields enter the Class name';
+$lang_module['error_required_grade_id'] = 'Error: Required fields enter the Grade id';
+$lang_module['error_required_amount'] = 'Error: Required fields enter the Amount';
+$lang_module['error_required_teacher_id'] = 'Error: Required fields enter the Teacher';

@@ -1,0 +1,6 @@
+[Sat, 03 Dec 2022 11:21:34 +0700] [localhost] [::1] [Warning(2): Undefined array key "column"] [FILE: /modules/nvtools/funcs/addfun.php] [LINE: 187] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+
+[Sat, 03 Dec 2022 11:21:34 +0700] [localhost] [::1] [Warning(2): Undefined array key 1] [FILE: /modules/nvtools/funcs/addfun.php] [LINE: 192] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+

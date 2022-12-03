@@ -87,3 +87,13 @@ $lang_module['times_name'] = 'Số thứ tự tiết';
 $lang_module['minutes'] = 'Số phút';
 $lang_module['error_required_times_name'] = 'Lỗi: bạn cần nhập dữ liệu cho Số thứ tự tiết';
 $lang_module['error_required_minutes'] = 'Lỗi: bạn cần nhập dữ liệu cho Số phút';
+
+//Lang for function class
+$lang_module['class_name'] = 'Tên lớp';
+$lang_module['grade_id'] = 'Khối';
+$lang_module['amount'] = 'Sĩ số';
+$lang_module['teacher_id'] = 'Giáo viên chủ nhiệm';
+$lang_module['error_required_class_name'] = 'Lỗi: bạn cần nhập dữ liệu cho Tên lớp';
+$lang_module['error_required_grade_id'] = 'Lỗi: bạn cần nhập dữ liệu cho Khối';
+$lang_module['error_required_amount'] = 'Lỗi: bạn cần nhập dữ liệu cho Sĩ số';
+$lang_module['error_required_teacher_id'] = 'Lỗi: bạn cần nhập dữ liệu cho Giáo viên chủ nhiệm';
