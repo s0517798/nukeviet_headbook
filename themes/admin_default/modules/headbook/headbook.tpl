@@ -31,7 +31,7 @@
                     <th>{LANG.status}</th>
                     <th>{LANG.add_time}</th>
                     <th>{LANG.update_time}</th>
-                    <th class="w150 text-center">{LANG.action}</th>
+                    <th class="w150">&nbsp;</th>
                 </tr>
             </thead>
             <!-- BEGIN: generate_page -->
@@ -123,13 +123,7 @@
     <div class="form-group">
         <label class="col-sm-5 col-md-4 control-label"><strong>{LANG.update_time}</strong> <span class="red">(*)</span></label>
         <div class="col-sm-19 col-md-20">
-            <div class="input-group">
-            <input class="form-control" type="text" name="update_time" value="{ROW.update_time}" id="update_time" pattern="^[0-9]{2,2}\/[0-9]{2,2}\/[0-9]{1,4}$" required="required" oninvalid="setCustomValidity(nv_required)" oninput="setCustomValidity('')" />
-                <span class="input-group-btn">
-                    <button class="btn btn-default" type="button" id="update_time-btn">
-                        <em class="fa fa-calendar fa-fix"> </em>
-                    </button> </span>
-                </div>
+            <input class="form-control" type="text" name="update_time" value="{ROW.update_time}" pattern="^([0-9]*)(\.*)([0-9]+)$" oninvalid="setCustomValidity(nv_number)" oninput="setCustomValidity('')" required="required" />
         </div>
     </div>
     <div class="form-group" style="text-align: center"><input class="btn btn-primary" name="submit" type="submit" value="{LANG.save}" /></div>
@@ -141,7 +135,7 @@
 
 <script type="text/javascript">
 //<![CDATA[
-    $("#add_time,#update_time").datepicker({
+    $("#add_time").datepicker({
         dateFormat : "dd/mm/yy",
         changeMonth : true,
         changeYear : true,

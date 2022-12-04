@@ -126,3 +126,45 @@ $lang_module['error_required_week_name'] = 'Lỗi: bạn cần nhập dữ liệ
 $lang_module['error_required_start_time'] = 'Lỗi: bạn cần nhập dữ liệu cho Thời gian bắt đầu';
 $lang_module['error_required_end_time'] = 'Lỗi: bạn cần nhập dữ liệu cho Thời gian kết thúc';
 $lang_module['error_required_year_id'] = 'Lỗi: bạn cần nhập dữ liệu cho Mã năm';
+
+//Lang for function distribution
+$lang_module['times_id'] = 'Tiết';
+$lang_module['lesson_id'] = 'Bài học';
+$lang_module['subject_id'] = 'Môn học';
+$lang_module['error_required_times_id'] = 'Lỗi: bạn cần nhập dữ liệu cho Tiết';
+$lang_module['error_required_lesson_id'] = 'Lỗi: bạn cần nhập dữ liệu cho Bài học';
+$lang_module['error_required_subject_id'] = 'Lỗi: bạn cần nhập dữ liệu cho Môn họcc';
+
+//Lang for function contents
+$lang_module['session'] = 'Buổi';
+$lang_module['week_id'] = 'Tuần';
+$lang_module['headbook_id'] = 'Mã sổ đầu bài';
+$lang_module['note'] = 'Ghi chú';
+$lang_module['comment'] = 'Nhận xét';
+$lang_module['point'] = 'Điểm';
+$lang_module['error_required_session'] = 'Lỗi: bạn cần nhập dữ liệu cho Buổi';
+$lang_module['error_required_times'] = 'Lỗi: bạn cần nhập dữ liệu cho Tiết';
+$lang_module['error_required_week_id'] = 'Lỗi: bạn cần nhập dữ liệu cho Tuần';
+$lang_module['error_required_headbook_id'] = 'Lỗi: bạn cần nhập dữ liệu cho Mã sổ đầu bài';
+$lang_module['error_required_note'] = 'Lỗi: bạn cần nhập dữ liệu cho Ghi chú';
+$lang_module['error_required_comment'] = 'Lỗi: bạn cần nhập dữ liệu cho Nhận xét';
+$lang_module['error_required_point'] = 'Lỗi: bạn cần nhập dữ liệu cho Điểm';
+
+//Lang for function headbook
+$lang_module['headbook'] = 'headbook';
+$lang_module['headbook_name'] = 'Tên sổ đầu bài';
+$lang_module['class_id'] = 'Lớp';
+$lang_module['error_required_headbook_name'] = 'Lỗi: bạn cần nhập dữ liệu cho Tên sổ đầu bài';
+$lang_module['error_required_class_id'] = 'Lỗi: bạn cần nhập dữ liệu cho Lớp';
+
+//Lang for function contents
+$lang_module['order_name'] = 'Thứ';
+$lang_module['error_required_order_name'] = 'Lỗi: bạn cần nhập dữ liệu cho Thứ';
+
+//Lang for function summary
+$lang_module['headmaster_id'] = 'Giáo viên chủ nhiêm';
+$lang_module['error_required_headmaster_id'] = 'Lỗi: bạn cần nhập dữ liệu cho Giáo viên chủ nhiêm';
+
+//Lang for function setting
+$lang_module['setting_name'] = 'Tên cấu hình';
+$lang_module['error_required_setting_name'] = 'Lỗi: bạn cần nhập dữ liệu cho Tên cấu hình';

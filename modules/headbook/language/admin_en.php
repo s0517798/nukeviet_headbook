@@ -118,3 +118,52 @@ $lang_module['error_required_week_name'] = 'Error: Required fields enter the Wee
 $lang_module['error_required_start_time'] = 'Error: Required fields enter the Start time';
 $lang_module['error_required_end_time'] = 'Error: Required fields enter the End time';
 $lang_module['error_required_year_id'] = 'Error: Required fields enter the Year id';
+
+//Lang for function distribution
+$lang_module['distribution'] = 'distribution';
+$lang_module['times_id'] = 'Times id';
+$lang_module['lesson_id'] = 'Lesson id';
+$lang_module['subject_id'] = 'Subject id';
+$lang_module['error_required_times_id'] = 'Error: Required fields enter the Times id';
+$lang_module['error_required_lesson_id'] = 'Error: Required fields enter the Lesson id';
+$lang_module['error_required_subject_id'] = 'Error: Required fields enter the Subject id';
+
+//Lang for function contents
+$lang_module['contents'] = 'contents';
+$lang_module['session'] = 'Session';
+$lang_module['week_id'] = 'Week id';
+$lang_module['headbook_id'] = 'Headbook id';
+$lang_module['note'] = 'Note';
+$lang_module['comment'] = 'Comment';
+$lang_module['point'] = 'Point';
+$lang_module['error_required_session'] = 'Error: Required fields enter the Session';
+$lang_module['error_required_times'] = 'Error: Required fields enter the times';
+$lang_module['error_required_week_id'] = 'Error: Required fields enter the Week id';
+$lang_module['error_required_headbook_id'] = 'Error: Required fields enter the Headbook id';
+$lang_module['error_required_note'] = 'Error: Required fields enter the Note';
+$lang_module['error_required_comment'] = 'Error: Required fields enter the Comment';
+$lang_module['error_required_point'] = 'Error: Required fields enter the Point';
+
+//Lang for function headbook
+$lang_module['headbook'] = 'headbook';
+$lang_module['headbook_name'] = 'Headbook name';
+$lang_module['class_id'] = 'Class id';
+$lang_module['error_required_headbook_name'] = 'Error: Required fields enter the Headbook name';
+$lang_module['error_required_class_id'] = 'Error: Required fields enter the Class id';
+
+//Lang for function main
+$lang_module['main'] = 'main';
+
+//Lang for function contents
+$lang_module['order_name'] = 'Order name';
+$lang_module['error_required_order_name'] = 'Error: Required fields enter the Order name';
+
+//Lang for function summary
+$lang_module['summary'] = 'summary';
+$lang_module['headmaster_id'] = 'Headmaster id';
+$lang_module['error_required_headmaster_id'] = 'Error: Required fields enter the Headmaster id';
+
+//Lang for function setting
+$lang_module['setting'] = 'setting';
+$lang_module['setting_name'] = 'Setting name';
+$lang_module['error_required_setting_name'] = 'Error: Required fields enter the Setting name';
