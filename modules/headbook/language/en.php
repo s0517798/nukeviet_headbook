@@ -52,3 +52,21 @@ $lang_module['save'] = 'Save';
 //Lang for function contents
 $lang_module['order_name'] = 'Order name';
 $lang_module['error_required_order_name'] = 'Error: Required fields enter the Order name';
+
+//Lang for function headbook
+$lang_module['headbook'] = 'headbook';
+$lang_module['headbook_name'] = 'Headbook name';
+$lang_module['class_id'] = 'Class id';
+$lang_module['year_id'] = 'Year id';
+$lang_module['status'] = 'Status';
+$lang_module['add_time'] = 'Add time';
+$lang_module['update_time'] = 'Update time';
+$lang_module['error_required_headbook_name'] = 'Error: Required fields enter the Headbook name';
+$lang_module['error_required_class_id'] = 'Error: Required fields enter the Class id';
+$lang_module['error_required_year_id'] = 'Error: Required fields enter the Year id';
+$lang_module['error_required_status'] = 'Error: Required fields enter the Status';
+$lang_module['error_required_add_time'] = 'Error: Required fields enter the Add time';
+$lang_module['error_required_update_time'] = 'Error: Required fields enter the Update time';
+
+//Lang for function main
+$lang_module['main'] = 'main';

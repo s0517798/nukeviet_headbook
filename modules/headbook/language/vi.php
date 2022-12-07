@@ -25,7 +25,9 @@ $lang_module['search'] = 'Tìm kiếm';
 $lang_module['contents'] = 'contents';
 $lang_module['add'] = 'Thêm mới';
 $lang_module['edit'] = 'Sửa';
+$lang_module['view'] = 'Xem';
 $lang_module['delete'] = 'Xóa';
+$lang_module['detail_main'] = 'Chi tiết';
 $lang_module['number'] = 'STT';
 $lang_module['active'] = 'Trạng thái';
 $lang_module['search_title'] = 'Nhập từ khóa tìm kiếm';
@@ -55,3 +57,18 @@ $lang_module['save'] = 'Lưu thay đổi';
 //Lang for function contents
 $lang_module['order_name'] = 'Thứ';
 $lang_module['error_required_order_name'] = 'Lỗi: bạn cần nhập dữ liệu cho Thứ';
+
+//Lang for function headbook
+$lang_module['headbook'] = 'headbook';
+$lang_module['headbook_name'] = 'Tên sổ đầu bài';
+$lang_module['class_id'] = 'Lớp học';
+$lang_module['year_id'] = 'Mã năm';
+$lang_module['status'] = 'Trạng thái';
+$lang_module['add_time'] = 'Thời gian thêm';
+$lang_module['update_time'] = 'Thời gian cập nhật';
+$lang_module['error_required_headbook_name'] = 'Lỗi: bạn cần nhập dữ liệu cho Tên sổ đầu bài';
+$lang_module['error_required_class_id'] = 'Lỗi: bạn cần nhập dữ liệu cho Mã lớp';
+$lang_module['error_required_year_id'] = 'Lỗi: bạn cần nhập dữ liệu cho Mã năm';
+$lang_module['error_required_status'] = 'Lỗi: bạn cần nhập dữ liệu cho Trạng thái';
+$lang_module['error_required_add_time'] = 'Lỗi: bạn cần nhập dữ liệu cho Thời gian thêm';
+$lang_module['error_required_update_time'] = 'Lỗi: bạn cần nhập dữ liệu cho Thời gian cập nhật';

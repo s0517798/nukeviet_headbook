@@ -113,3 +113,61 @@
 #6  LINE: 733   FILE: /vendor/vinades/nukeviet/Http/Http.php
 #7  LINE: 215   FILE: /vendor/vinades/nukeviet/Http/Http.php
 
+[Wed, 07 Dec 2022 14:39:59 +0700] [localhost] [::1] [Run-time notices(8192): Implicit conversion from float 5897750.000000001 to int loses precision] [FILE: /vendor/vinades/nukeviet/Files/Upload.php] [LINE: 156] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 63    FILE: /admin/upload/upload.php
+#3  LINE: 156   FILE: /vendor/vinades/nukeviet/Files/Upload.php
+
+[Wed, 07 Dec 2022 14:39:59 +0700] [localhost] [::1] [Warning(2): exif_read_data(logo-cmyk-01.png): File not supported] [FILE: /vendor/vinades/nukeviet/Files/Upload.php] [LINE: 1122] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 71    FILE: /admin/upload/upload.php
+#3  LINE: 1122  FILE: /vendor/vinades/nukeviet/Files/Upload.php
+
+[Wed, 07 Dec 2022 14:46:00 +0700] [localhost] [::1] [Error(1): Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quanlysodaubai.nv4_vi_music_config' doesn't exist in C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\vendor\vinades\nukeviet\Core\Database.php:526
+Stack trace:
+#0 C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\vendor\vinades\nukeviet\Core\Database.php(526): PDO->query('SELECT config_n...', NULL)
+#1 C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\vendor\vinades\nukeviet\Cache\Files.php(203): NukeViet\Core\Database->query('SELECT config_n...')
+#2 C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\modules\music\functions.php(20): NukeViet\Cache\Files->db('SELECT config_n...', '', 'music')
+#3 C:\xampp\htdocs\nukeviet4.5.02setup\nukeviet\index.php(344): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 526]
+[Wed, 07 Dec 2022 15:00:32 +0700] [localhost] [::1] [Run-time notices(8192): Function strftime() is deprecated] [FILE: /admin/database/functions.php] [LINE: 81] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 17    FILE: /admin/database/main.php
+
+[Wed, 07 Dec 2022 15:00:32 +0700] [localhost] [::1] [Run-time notices(8192): Function strftime() is deprecated] [FILE: /admin/database/functions.php] [LINE: 82] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 17    FILE: /admin/database/main.php
+
+[Wed, 07 Dec 2022 15:31:59 +0700] [localhost] [::1] [Warning(2): Undefined array key "column"] [FILE: /modules/nvtools/funcs/addfun.php] [LINE: 187] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+
+[Wed, 07 Dec 2022 15:31:59 +0700] [localhost] [::1] [Warning(2): Undefined array key 1] [FILE: /modules/nvtools/funcs/addfun.php] [LINE: 192] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+
+[Wed, 07 Dec 2022 15:33:04 +0700] [localhost] [::1] [Warning(2): Undefined array key "status"] [FILE: /modules/nvtools/funcs/addfun.php] [LINE: 931] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+
+[Wed, 07 Dec 2022 15:33:04 +0700] [localhost] [::1] [Warning(2): Undefined array key "status"] [FILE: /modules/nvtools/funcs/addfun.php] [LINE: 934] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+
+[Wed, 07 Dec 2022 15:33:04 +0700] [localhost] [::1] [Warning(2): Undefined array key "status"] [FILE: /modules/nvtools/funcs/addfun.php] [LINE: 1183] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+
+[Wed, 07 Dec 2022 19:01:02 +0700] [localhost] [::1] [Warning(2): file_get_contents(C:/xampp/htdocs/nukeviet4.5.02setup/nukeviet/themes//modules/class\main.tpl): Failed to open stream: No such file or directory] [FILE: /includes/xtemplate.class.php] [LINE: 1333] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 190   FILE: /modules/class/admin/main.php
+#3  LINE: 395   FILE: /includes/xtemplate.class.php
+#4  LINE: 506   FILE: /includes/xtemplate.class.php
+#5  LINE: 537   FILE: /includes/xtemplate.class.php
+#6  LINE: 1365  FILE: /includes/xtemplate.class.php
+#7  LINE: 1333  FILE: /includes/xtemplate.class.php
+
+[Wed, 07 Dec 2022 19:12:38 +0700] [localhost] [::1] [Warning(2): rmdir(C:/xampp/htdocs/nukeviet4.5.02setup/nukeviet/data/tmp/nv4_module_class_cd25b495415121d9252294a29d9f9070/themes/admin_default/images): Directory not empty] [FILE: /includes/core/filesystem_functions.php] [LINE: 519] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+#2  LINE: 647   FILE: /modules/nvtools/funcs/main.php
+#3  LINE: 511   FILE: /includes/core/filesystem_functions.php
+#4  LINE: 511   FILE: /includes/core/filesystem_functions.php
+#5  LINE: 511   FILE: /includes/core/filesystem_functions.php
+#6  LINE: 519   FILE: /includes/core/filesystem_functions.php
+
