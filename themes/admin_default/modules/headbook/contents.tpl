@@ -24,18 +24,18 @@
         <table class="table table-striped table-bordered table-hover">
             <thead>
                 <tr>
-                    <th class="w100">{LANG.number}</th>
+                    <th class="w50">{LANG.number}</th>
                     <th>{LANG.headbook_id}</th>
                     <th>{LANG.week_id}</th>
                     <th>{LANG.order_name}</th>
                     <th>{LANG.session}</th>
                     <th>{LANG.times}</th>
                     <th>{LANG.subject_id}</th>
-                    <th>{LANG.times_id}</th>
+                    <th>{LANG.times_id_order}</th>
                     <th>{LANG.lesson_id}</th>
                     <th>{LANG.comment}</th>
                     <th>{LANG.point}</th>
-                    <th>{LANG.teacher_id}</th>
+                    <th>{LANG.teacher_id_content}</th>
                     <th class="w150 text-center">{LANG.action}</th>
                 </tr>
             </thead>
@@ -144,7 +144,7 @@
         </div>
     </div>
     <div class="form-group">
-        <label class="col-sm-5 col-md-4 control-label"><strong>{LANG.times_id}</strong> <span class="red">(*)</span></label>
+        <label class="col-sm-5 col-md-4 control-label"><strong>{LANG.times_id_order}</strong> <span class="red">(*)</span></label>
         <div class="col-sm-19 col-md-20">
             <select class="form-control" name="times_id">
                 <option value=""> --- </option>
@@ -178,7 +178,7 @@
         </div>
     </div>
     <div class="form-group">
-        <label class="col-sm-5 col-md-4 control-label"><strong>{LANG.teacher_id}</strong> <span class="red">(*)</span></label>
+        <label class="col-sm-5 col-md-4 control-label"><strong>{LANG.teacher_id_content}</strong> <span class="red">(*)</span></label>
         <div class="col-sm-19 col-md-20">
             <select class="form-control" name="teacher_id">
                 <option value=""> --- </option>

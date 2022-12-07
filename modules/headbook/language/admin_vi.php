@@ -160,6 +160,9 @@ $lang_module['error_required_class_id'] = 'Lỗi: bạn cần nhập dữ liệu
 //Lang for function contents
 $lang_module['order_name'] = 'Thứ';
 $lang_module['error_required_order_name'] = 'Lỗi: bạn cần nhập dữ liệu cho Thứ';
+$lang_module['times_id_order'] = 'Tiết CT';
+$lang_module['teacher_id_content'] = 'Giáo viên';
+
 
 //Lang for function summary
 $lang_module['headmaster_id'] = 'Giáo viên chủ nhiêm';

@@ -280,14 +280,34 @@ $sql_create_module[] = "INSERT INTO `nv4_headbook_subjects` (`subject_id`, `subj
 
 /* Bài học  */
 $sql_create_module[] = "INSERT INTO `nv4_headbook_lessons` (`lesson_id`, `lesson_name`, `status`, `add_time`, `update_time`) VALUES
-(1,  'Đọc văn. KHÁI QUÁT VĂN HỌC VIỆT NAM  TỪ CÁCH MẠNG THÁNG TÁM NĂM 1945 ĐẾN HẾT THẾ KỈ XX', 1, 1670000400, 1670000400),
-(2,  'Làm văn. NGHỊ LUẬN VỀ MỘT TƯ TƯỞNG, ĐẠO LÍ', 1, 1670000400, 1670000400),
-(3,  'Đọc văn. TUYÊN NGÔN ĐỘC LẬP - HỒ CHÍ MINH', 1, 1670000400, 1670000400),
-(4,  'Tiếng Việt. GIỮ GÌN SỰ TRONG SÁNG CỦA TIẾNG VIỆT', 1, 1670000400, 1670000400),
-(5,  'Làm văn. BÀI LÀM VĂN SỐ 1 (NGHỊ LUẬN XÃ HỘI)', 1, 1670000400, 1670000400),
-(6,  'Đọc văn. TUYÊN NGÔN ĐỘC LẬP (Hồ Chí Minh) (Phần 2. TÁC PHẨM)', 1, 1670000400, 1670000400),
-(7,  'Tiếng Việt.  GIỮ GÌN SỰ TRONG SÁNG CỦA TIẾNG VIỆT (tiếp)', 1, 1670000400, 1670000400),
-(8, 'Đọc văn.  NGUYỄN ĐÌNH CHIỂU, NGÔI SAO SÁNG TRONG VĂN NGHỆ CỦA DÂN TỘC', 1, 1670000400, 1670000400)";    
+(1, 'Đọc văn. KHÁI QUÁT VĂN HỌC VIỆT NAM  TỪ CÁCH MẠNG THÁNG TÁM NĂM 1945 ĐẾN HẾT THẾ KỈ XX', 1, 1670000400, 1670000400),
+(2, 'Làm văn. NGHỊ LUẬN VỀ MỘT TƯ TƯỞNG, ĐẠO LÍ', 1, 1670000400, 1670000400),
+(3, 'Đọc văn. TUYÊN NGÔN ĐỘC LẬP - HỒ CHÍ MINH', 1, 1670000400, 1670000400),
+(4, 'Tiếng Việt. GIỮ GÌN SỰ TRONG SÁNG CỦA TIẾNG VIỆT', 1, 1670000400, 1670000400),
+(5, 'Làm văn. BÀI LÀM VĂN SỐ 1 (NGHỊ LUẬN XÃ HỘI)', 1, 1670000400, 1670000400),
+(6, 'Đọc văn. TUYÊN NGÔN ĐỘC LẬP (Hồ Chí Minh) (Phần 2. TÁC PHẨM)', 1, 1670000400, 1670000400),
+(7, 'Tiếng Việt.  GIỮ GÌN SỰ TRONG SÁNG CỦA TIẾNG VIỆT (tiếp)', 1, 1670000400, 1670000400),
+(8, 'Đọc văn.  NGUYỄN ĐÌNH CHIỂU, NGÔI SAO SÁNG TRONG VĂN NGHỆ CỦA DÂN TỘC', 1, 1670000400, 1670000400),
+(9, 'Bài 1. Sự đồng biến, nghich biến của hàm số', 1, 1670000400, 1670000400),
+(10, 'Bài 2. Cực trị của hàm số', 1, 1670000400, 1670000400),
+(11, 'Bài 3. Giá trị lớn nhất và giá trị nhỏ nhất của hàm số', 1, 1670000400, 1670000400),
+(12, 'Bài 4. Đường tiệm cận', 1, 1670000400, 1670000400),
+(13, 'Bài 5. Khảo sát sự biến thiên và vẽ đồ thị của hàm số', 1, 1670000400, 1670000400),
+(14, 'Bài 1. Kim loại kiềm', 1, 1670346000, 1670346000),
+(15, 'Bài 2. Kim loại kiềm thổ và một số hợp chất quan trọng của kim loại kiềm thổ', 1, 1670346000, 1670346000),
+(16, 'Bài 3. Luyện tập: Tính chất của kim loại kiềm, kim loại kiềm thổ và hợp chất của chúng', 1, 1670346000, 1670346000),
+(17, 'Bài 4. Nhôm và một số hợp chất quan trọng của nhôm', 1, 1670346000, 1670346000),
+(18, 'Bài 5. Luyện tập: Tính chất của nhôm và hợp chất của nhôm', 1, 1670346000, 1670346000),
+(19, 'Bài 1. Ôn tập/ Kiểm tra đầu năm', 1, 1670346000, 1670346000),
+(20, 'Bài 2. Unit 1: Reading', 1, 1670346000, 1670346000),
+(21, 'Bài 3. Speaking: gộp Task 2, Task 3 thành 1 Hoạt động', 1, 1670346000, 1670346000),
+(22, 'Bài 4.Tự chọn 1- Reading- Home Life', 1, 1670346000, 1670346000),
+(23, 'Bài 5. Listening', 1, 1670346000, 1670346000),
+(24, 'Bài 1. Dao động điều hòa', 1, 1670346000, 1670346000),
+(25, 'Bài 2. Bài tập', 1, 1670346000, 1670346000),
+(26, 'Bài 3. Con lắc lò xo', 1, 1670346000, 1670346000),
+(27, 'Bài 4. Bài tập', 1, 1670346000, 1670346000),
+(28, 'Bài 5. Con lắc đơn', 1, 1670346000, 1670346000)";
 
 /* Năm học*/
 $sql_create_module[] = "INSERT INTO `nv4_headbook_year` (`year_id`, `year_name`, `description`) VALUES
@@ -313,7 +333,26 @@ $sql_create_module[] = "INSERT INTO `nv4_headbook_distribution` (`distribution_i
 (7, 7, 6, 11, 3, 1),
 (8, 8, 6, 11, 3, 1),
 (9, 9, 7, 11, 3, 1),
-(10, 10, 8, 10, 3, 1)";
+(10, 10, 8, 10, 3, 1),
+(11, 1, 9, 9, 3, 1),
+(12, 2, 10, 9, 3, 1),
+(13, 3, 11, 9, 3, 1),
+(14, 4, 12, 9, 3, 1),
+(15, 1, 14, 5, 3, 1),
+(16, 2, 15, 5, 3, 1),
+(17, 3, 16, 5, 3, 1),
+(18, 4, 17, 5, 3, 1),
+(19, 5, 18, 5, 3, 1),
+(20, 1, 19, 10, 3, 1),
+(21, 2, 20, 10, 3, 1),
+(22, 3, 21, 10, 3, 1),
+(23, 4, 22, 10, 3, 1),
+(24, 5, 23, 10, 3, 1),
+(25, 1, 24, 4, 3, 1),
+(26, 2, 25, 4, 3, 1),
+(27, 3, 26, 4, 3, 1),
+(28, 4, 27, 4, 3, 1),
+(29, 5, 28, 4, 3, 1)";
 
 /* Phân phối chương trình */
 $sql_create_module[] = "INSERT INTO `nv4_headbook_headbook` (`headbook_id`, `headbook_name`, `class_id`, `year_id`, `status`, `add_time`, `update_time`) VALUES
@@ -323,7 +362,11 @@ $sql_create_module[] = "INSERT INTO `nv4_headbook_headbook` (`headbook_id`, `hea
 
 /* Nội dung sổ đầu bài */
 $sql_create_module[] = "INSERT INTO `nv4_headbook_contents` (`content_id`, `headbook_id`, `week_id`, `order_name`, `session`, `times`, `subject_id`, `times_id`, `lesson_id`, `comment`, `point`, `teacher_id`) VALUES
-(1, 1, 1, 1, 1, 1, 11, 1, 1, 'Tốt', 10, 4)";
+(1, 1, 1, 1, 1, 1, 11, 1, 1, 'Lớp học tốt', 10, 4),
+(2, 1, 1, 1, 1, 2, 9, 1, 9, 'Lớp học nghiêm túc', 10, 3),
+(3, 1, 1, 1, 1, 3, 5, 1, 14, 'Một số học sinh chưa làm bài tập', 9, 2),
+(4, 1, 1, 1, 1, 4, 10, 1, 20, 'Lớp hoạt đồng sôi nổi', 10, 4),
+(5, 1, 1, 1, 1, 5, 4, 1, 24, 'Lớp chú ý xây dựng bài', 10, 3)";
 
 /* Tổng kết tuần */
 $sql_create_module[] = "INSERT INTO `nv4_headbook_summary` (`summary_id`, `week_id`, `headbook_id`, `headmaster_id`, `comment`, `add_time`, `update_time`) VALUES
