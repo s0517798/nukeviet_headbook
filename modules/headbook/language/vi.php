@@ -38,7 +38,7 @@ $lang_module['session'] = 'Buổi';
 $lang_module['times'] = 'Tiết';
 $lang_module['subject_id'] = 'Môn học';
 $lang_module['times_id'] = 'Tiết CT';
-$lang_module['lesson_id'] = 'Bài';
+$lang_module['lesson_id'] = 'Bài học';
 $lang_module['comment'] = 'Nhận xét';
 $lang_module['point'] = 'Điểm';
 $lang_module['teacher_id'] = 'Giáo viên';
@@ -72,3 +72,19 @@ $lang_module['error_required_year_id'] = 'Lỗi: bạn cần nhập dữ liệu 
 $lang_module['error_required_status'] = 'Lỗi: bạn cần nhập dữ liệu cho Trạng thái';
 $lang_module['error_required_add_time'] = 'Lỗi: bạn cần nhập dữ liệu cho Thời gian thêm';
 $lang_module['error_required_update_time'] = 'Lỗi: bạn cần nhập dữ liệu cho Thời gian cập nhật';
+
+//Lang for function search
+$lang_module['class_name'] = 'Tên lớp';
+$lang_module['grade_id'] = 'Khối';
+$lang_module['amount'] = 'Sĩ số';
+$lang_module['error_required_class_name'] = 'Lỗi: bạn cần nhập dữ liệu cho Tên lớp';
+$lang_module['error_required_grade_id'] = 'Lỗi: bạn cần nhập dữ liệu cho Khối';
+$lang_module['error_required_amount'] = 'Lỗi: bạn cần nhập dữ liệu cho Sĩ số';
+
+//Lang for function subject
+$lang_module['subject'] = 'subject';
+$lang_module['subject_name'] = 'Tên môn học';
+$lang_module['error_required_subject_name'] = 'Lỗi: bạn cần nhập dữ liệu cho Tên môn học';
+
+//Lang for function distribution
+$lang_module['distribution'] = 'distribution';

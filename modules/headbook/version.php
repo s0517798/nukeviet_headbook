@@ -13,9 +13,9 @@ if (!defined('NV_MAINFILE'))
 
 $module_version = array(
     'name' => 'Headbook',
-    'modfuncs' => 'main,detail,search',
-    'change_alias' => 'main,detail,search',
-    'submenu' => 'main,detail,search',
+    'modfuncs' => 'main,detail,search,distribution,subject',
+    'change_alias' => 'main,detail,search,distribution,subject',
+    'submenu' => 'main,detail,search,distribution,subject',
     'is_sysmod' => 0,
     'virtual' => 1,
     'version' => '4.0.00',

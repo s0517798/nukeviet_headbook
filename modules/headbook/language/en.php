@@ -70,3 +70,23 @@ $lang_module['error_required_update_time'] = 'Error: Required fields enter the U
 
 //Lang for function main
 $lang_module['main'] = 'main';
+
+//Lang for function detail
+$lang_module['detail'] = 'detail';
+
+//Lang for function search
+$lang_module['search'] = 'search';
+$lang_module['class_name'] = 'Class name';
+$lang_module['grade_id'] = 'Grade id';
+$lang_module['amount'] = 'Amount';
+$lang_module['error_required_class_name'] = 'Error: Required fields enter the Class name';
+$lang_module['error_required_grade_id'] = 'Error: Required fields enter the Grade id';
+$lang_module['error_required_amount'] = 'Error: Required fields enter the Amount';
+
+//Lang for function subject
+$lang_module['subject'] = 'subject';
+$lang_module['subject_name'] = 'Subject name';
+$lang_module['error_required_subject_name'] = 'Error: Required fields enter the Subject name';
+
+//Lang for function distribution
+$lang_module['distribution'] = 'distribution';

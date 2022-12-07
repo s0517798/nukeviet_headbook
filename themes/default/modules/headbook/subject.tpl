@@ -6,26 +6,27 @@
             <thead>
                 <tr>
                     <th class="w100">{LANG.number}</th>
-                    <th>{LANG.headbook_name}</th>
-                    <th>{LANG.class_id}</th>
-                    <th>{LANG.year_id}</th>
+                    <th>{LANG.subject_name}</th>
                     <th>{LANG.status}</th>
                     <th>{LANG.add_time}</th>
                     <th>{LANG.update_time}</th>
-                    <th class="w150">&nbsp;</th>
                 </tr>
             </thead>
+            <!-- BEGIN: generate_page -->
+            <tfoot>
+                <tr>
+                    <td class="text-center" colspan="6">{NV_GENERATE_PAGE}</td>
+                </tr>
+            </tfoot>
+            <!-- END: generate_page -->
             <tbody>
                 <!-- BEGIN: loop -->
                 <tr>
-                    <td> {VIEW.number} </td>
-                    <td> {VIEW.headbook_name} </td>
-                    <td> {VIEW.class_id} </td>
-                    <td> {VIEW.year_id} </td>
-                    <td> {VIEW.status} </td>
-                    <td> {VIEW.add_time} </td>
-                    <td> {VIEW.update_time} </td>
-                    <td class="text-center"><i class="fa fa-edit fa-lg">&nbsp;</i> <a href="{VIEW.link_edit}#edit">{LANG.edit}</a> - <em class="fa fa-trash-o fa-lg">&nbsp;</em> <a href="{VIEW.link_delete}" onclick="return confirm(nv_is_del_confirm[0]);">{LANG.delete}</a></td>
+                    <td class="text-center"> {VIEW.number} </td>
+                    <td class="text-center"> {VIEW.subject_name} </td>
+                    <td class="text-center"> {VIEW.status} </td>
+                    <td class="text-center"> {VIEW.add_time} </td>
+                    <td class="text-center"> {VIEW.update_time} </td>
                 </tr>
                 <!-- END: loop -->
             </tbody>

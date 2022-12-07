@@ -171,3 +171,6 @@ Stack trace:
 #5  LINE: 511   FILE: /includes/core/filesystem_functions.php
 #6  LINE: 519   FILE: /includes/core/filesystem_functions.php
 
+[Wed, 07 Dec 2022 19:44:40 +0700] [localhost] [::1] [Warning(2): Undefined array key 1] [FILE: /modules/headbook/funcs/detail.php] [LINE: 135] [TRACE:]
+#1  LINE: 364   FILE: /index.php
+
